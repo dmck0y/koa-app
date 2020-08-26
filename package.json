@@ -1,0 +1,29 @@
+{
+  "name": "koa-app",
+  "version": "1.0.0",
+  "description": "Just a simple Koa app",
+  "main": "src/index.js",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "enforce-node-path": "^1.0.0",
+    "knex": "^0.21.5",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-helmet": "^5.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-response-time": "^2.1.0",
+    "koa-router": "^9.4.0",
+    "nodemon": "^2.0.4",
+    "objection": "^2.2.3",
+    "pg": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cross-env NODE_PATH=src node src/index.js",
+    "watch": "cross-env NODE_ENV=development NODE_PATH=src nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
